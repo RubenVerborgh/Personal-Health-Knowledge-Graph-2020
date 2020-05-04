@@ -1,0 +1,27 @@
+.shower {
+  --accent: #3a2d72;
+}
+
+.shower .caption h1 {
+  line-height: 1.2;
+}
+.shower .caption p {
+  margin-top: .5em;
+}
+p.venue {
+  font-style: italic;
+}
+
+.text.slide > * {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: -1em 0 0 0;
+}
+
+.text.slide > p {
+  font-weight: bold;
+  color: var(--accent);
+  font-size: 2em;
+  line-height: 1.5;
+}
