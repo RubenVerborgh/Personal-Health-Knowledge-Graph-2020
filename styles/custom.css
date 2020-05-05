@@ -12,14 +12,12 @@ p.venue {
   font-style: italic;
 }
 
-.text.slide > * {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: -1em 0 0 0;
+.title.slide h2 {
+  margin: 3.6em 0 1em 0;
 }
 
-.text.slide > p {
+.text.slide p {
+  margin: 2em 0 0 0;
   font-weight: bold;
   color: var(--accent);
   font-size: 2em;
